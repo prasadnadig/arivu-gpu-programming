@@ -12,11 +12,39 @@ const PLAYLIST_CONFIG = {
   mediaBase: "../videos/",
   items: [
     {
-      video: "the_arivu_repositories.mp4",
-      thumbnail: "Arivu_Learning_Project_Overview.png",
-      title: "The Arivu Repositories",
+      video: "How GPU Programs Work.mp4",
+      thumbnail: "How GPUs Programs Work.png",
+      title: "How GPU Programs Work",
       description:
-        "Discover the Arivu knowledge path and how the repositories are organized.",
+        "Understand how a GPU runs work — from kernels and Streaming Multiprocessors to grids, blocks, threads, and warps. #GPU #CUDA #GPUProgramming #ParallelComputing #AI",
+    },
+    {
+      video: "Single-GPU Programming Model.mp4",
+      thumbnail: "Single-GPU Programming Model.png",
+      title: "Single-GPU Programming Model",
+      description:
+        "A deep dive into the CUDA programming model: grids, blocks, threads, and warps, and how they map to GPU hardware. #CUDA #GPUProgramming #CUDAProgramming #ParallelComputing #DeepLearning",
+    },
+    {
+      video: "Multi-GPU Programming Model.mp4",
+      thumbnail: "Multi-GPU Programming Model.png",
+      title: "Multi-GPU Programming Model",
+      description:
+        "Learn how work is split across multiple GPU devices for data-parallel batch processing. #MultiGPU #GPUProgramming #CUDA #DistributedComputing #AI",
+    },
+    {
+      video: "GPU System Limits — How They Constrain and Shape Parallelization.mp4",
+      thumbnail: "GPU System Limits — How They Constrain and Shape Parallelization.png",
+      title: "GPU System Limits — How They Constrain and Shape Parallelization",
+      description:
+        "Explore how hardware limits (from P100, V100, A100 whitepapers) constrain and shape parallelization strategies. #GPU #CUDA #Parallelization #NvidiaGPU #AIHardware",
+    },
+    {
+      video: "GPU Performance Tuning Knobs For Beginners.mp4",
+      thumbnail: "GPU Performance Tuning Knobs For Beginners.png",
+      title: "GPU Performance Tuning Knobs for Beginners",
+      description:
+        "Learn the key performance tuning knobs — block size, occupancy, and warp divergence — tied back to the GPU hardware hierarchy. #GPUOptimization #CUDA #PerformanceTuning #GPUProgramming #AI",
     },
   ],
 };
