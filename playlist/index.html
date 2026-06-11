@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Playlist</title>
+  <link rel="stylesheet" href="playlist.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="eyebrow">Video Series</div>
+      <h1 id="series-title"></h1>
+      <p class="subtitle" id="series-subtitle"></p>
+    </header>
+
+    <div class="layout">
+      <section class="player-card">
+        <div class="video-wrap">
+          <video id="player" controls playsinline preload="metadata"></video>
+        </div>
+        <div class="now-playing">
+          <div class="episode-badge" id="current-episode"></div>
+          <h3 id="current-title"></h3>
+          <p id="current-description"></p>
+          <div class="controls" id="controls">
+            <button class="btn-secondary" id="btn-prev" type="button">← Previous</button>
+            <button class="btn-primary" id="btn-next" type="button">Next →</button>
+          </div>
+          <div class="progress-bar" id="progress-bar" aria-hidden="true">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="playlist-card">
+        <div class="playlist-header">
+          <h2>Playlist</h2>
+          <span class="playlist-count" id="playlist-count"></span>
+        </div>
+        <ul class="playlist" id="playlist"></ul>
+      </aside>
+    </div>
+
+    <footer class="attribution">
+      <p>Created by <a href="https://www.linkedin.com/in/prasadnadig" target="_blank" rel="noopener noreferrer">Prasad Nadig</a></p>
+      <p>Videos also on <a href="https://www.youtube.com/@prasadnadig" target="_blank" rel="noopener noreferrer">YouTube @prasadnadig</a></p>
+    </footer>
+  </div>
+
+  <!-- Change this path when switching to a different video series -->
+  <script src="../videos/playlist-config.js"></script>
+  <script src="playlist.js"></script>
+</body>
+</html>
