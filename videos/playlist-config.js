@@ -16,35 +16,35 @@ const PLAYLIST_CONFIG = {
       thumbnail: "How GPUs Programs Work.png",
       title: "How GPU Programs Work",
       description:
-        "Understand how a GPU runs work — from kernels and Streaming Multiprocessors to grids, blocks, threads, and warps. #GPU #CUDA #GPUProgramming #ParallelComputing #AI",
+        "Understand how a GPU runs work — from kernels and Streaming Multiprocessors to grids, blocks, threads, and warps. #GPUBasics #LearnGPU #GPUProgramming #CUDA #CUDAProgramming #ParallelComputing #GPUArchitecture #WarpScheduling #Occupancy #MemoryBandwidth #ThreadBlocks #MultiGPU #PerformanceTuning #GPUOptimization #AIEngineering #AIML #AIInfrastructure #LLMInfrastructure #GPUForAI #AcceleratedComputing",
     },
     {
       video: "Single-GPU Programming Model.mp4",
       thumbnail: "Single-GPU Programming Model.png",
       title: "Single-GPU Programming Model",
       description:
-        "A deep dive into the CUDA programming model: grids, blocks, threads, and warps, and how they map to GPU hardware. #CUDA #GPUProgramming #CUDAProgramming #ParallelComputing #DeepLearning",
+        "A deep dive into the CUDA programming model: grids, blocks, threads, and warps, and how they map to GPU hardware. #GPUBasics #LearnGPU #GPUProgramming #CUDA #CUDAProgramming #ParallelComputing #GPUArchitecture #WarpScheduling #Occupancy #MemoryBandwidth #ThreadBlocks #MultiGPU #PerformanceTuning #GPUOptimization #AIEngineering #AIML #AIInfrastructure #LLMInfrastructure #GPUForAI #AcceleratedComputing"
     },
     {
       video: "Multi-GPU Programming Model.mp4",
       thumbnail: "Multi-GPU Programming Model.png",
       title: "Multi-GPU Programming Model",
       description:
-        "Learn how work is split across multiple GPU devices for data-parallel batch processing. #MultiGPU #GPUProgramming #CUDA #DistributedComputing #AI",
+        "Learn how work is split across multiple GPU devices for data-parallel batch processing. #MultiGPU #GPUBasics #LearnGPU #GPUProgramming #CUDA #CUDAProgramming #ParallelComputing #GPUArchitecture #WarpScheduling #Occupancy #MemoryBandwidth #ThreadBlocks #MultiGPU #PerformanceTuning #GPUOptimization #AIEngineering #AIML #AIInfrastructure #LLMInfrastructure #GPUForAI #AcceleratedComputing",
     },
     {
       video: "GPU System Limits — How They Constrain and Shape Parallelization.mp4",
       thumbnail: "GPU System Limits — How They Constrain and Shape Parallelization.png",
       title: "GPU System Limits — How They Constrain and Shape Parallelization",
       description:
-        "Explore how hardware limits (from P100, V100, A100 whitepapers) constrain and shape parallelization strategies. #GPU #CUDA #Parallelization #NvidiaGPU #AIHardware",
+        "Explore how GPU hardware limits (from P100, V100, A100 whitepapers) constrain and shape work parallelization strategies. #GPUBasics #LearnGPU #GPUProgramming #CUDA #CUDAProgramming #ParallelComputing #GPUArchitecture #WarpScheduling #Occupancy #MemoryBandwidth #ThreadBlocks #MultiGPU #PerformanceTuning #GPUOptimization #AIEngineering #AIML #AIInfrastructure #LLMInfrastructure #GPUForAI #AcceleratedComputing",
     },
     {
       video: "GPU Performance Tuning Knobs For Beginners.mp4",
       thumbnail: "GPU Performance Tuning Knobs For Beginners.png",
       title: "GPU Performance Tuning Knobs for Beginners",
       description:
-        "Learn the key performance tuning knobs — block size, occupancy, and warp divergence — tied back to the GPU hardware hierarchy. #GPUOptimization #CUDA #PerformanceTuning #GPUProgramming #AI",
+        "Learn the key performance tuning knobs — block size, occupancy, and warp divergence — tied back to the GPU hardware hierarchy. #GPUOptimization #GPUBasics #LearnGPU #GPUProgramming #CUDA #CUDAProgramming #ParallelComputing #GPUArchitecture #WarpScheduling #Occupancy #MemoryBandwidth #ThreadBlocks #MultiGPU #PerformanceTuning #GPUOptimization #AIEngineering #AIML #AIInfrastructure #LLMInfrastructure #GPUForAI #AcceleratedComputing",
     },
   ],
 };

@@ -1,0 +1,57 @@
+Here is the updated text document with the high-level, keyword-rich video descriptions. Each description has been crafted to remain well under the 1,000-character limit while successfully mentioning the critical concepts without bogging down into deep technical explanations.
+
+```text
+================================================================================
+File: youtube-video-descriptions.txt
+================================================================================
+
+--------------------------------------------------------------------------------
+VIDEO 1: How GPUs Actually Work: Grids, Blocks, & Cores Explained
+--------------------------------------------------------------------------------
+TITLE: How GPUs Actually Work: Grids, Blocks, & Cores Explained
+
+DESCRIPTION:
+Welcome to our GPU programming series! This high-level overview bridges the gap between your software code and the physical hardware. We explore the software execution hierarchy—Grid, Blocks, Threads, and Warps—and map it directly to the physical GPU architecture. Discover how Streaming Multiprocessors (SMs) act as mini-factories, distributing work across SM partitions. We'll touch on how the warp scheduler issues instructions to execution units like CUDA cores and Tensor cores using the SIMT model. Perfect for beginners wanting to visualize a kernel launch step-by-step without getting lost in the weeds!
+
+#GPUProgramming #CUDA #MachineLearning #HardwareArchitecture #ParallelComputing
+
+--------------------------------------------------------------------------------
+VIDEO 2: Single GPU Programming: Map Code to Hardware
+--------------------------------------------------------------------------------
+TITLE: Single GPU Programming: Map Code to Hardware
+
+DESCRIPTION:
+Dive into the single-GPU programming model with this focused tutorial! We break down the exact definitions of a Grid, thread blocks, and individual threads, and show how a kernel launch translates to work on the GPU. You'll learn how these software constructs are grouped into Warps and physically mapped to the Streaming Multiprocessors (SMs). We also briefly mention vital hardware features like shared memory and synchronization via `__syncthreads()`. By walking through a 1D vector addition example, this video provides a solid mental model for how your code executes on a single chip.
+
+#CUDA #GPU #SoftwareEngineering #SingleGPU #ParallelProcessing
+
+--------------------------------------------------------------------------------
+VIDEO 3: Multi-GPU Scaling: Data Parallelism Explained
+--------------------------------------------------------------------------------
+TITLE: Multi-GPU Scaling: Data Parallelism Explained
+
+DESCRIPTION:
+Ready to scale beyond a single chip? This video introduces the multi-GPU programming model, focusing on the standard industry approach: data parallelism. We discuss how to split a massive global batch of data across multiple devices, giving each GPU its own independent Grid to process. We explore practical implementation details like host-device memory transfers, batching strategies, using cudaSetDevice, and leveraging streams for overlapping compute. Whether you use a single host thread controlling all GPUs or a one-process-per-GPU setup for distributed training, this high-level guide sets you up for multi-GPU success.
+
+#MultiGPU #DataParallelism #HighPerformanceComputing #CUDA #Scaling
+
+--------------------------------------------------------------------------------
+VIDEO 4: Maximize GPU Performance: Master the Tuning Knobs
+--------------------------------------------------------------------------------
+TITLE: Maximize GPU Performance: Master the Tuning Knobs
+
+DESCRIPTION:
+Unlock the full potential of your hardware by mastering the core GPU performance tuning knobs! In this high-level overview, we cover how to choose the right Block Size and why it matters for resource allocation. We introduce Occupancy—the ratio of active warps on an SM—and discuss how tools like Nsight Compute help measure it. We also tackle Warp Divergence, exploring how branching code affects SIMT efficiency. Finally, we highlight the importance of Memory Coalescing for global memory bandwidth. Learn the fundamental rules of thumb for tuning your kernels!
+
+#PerformanceTuning #GPUOptimization #CUDA #WarpDivergence #TechSkills
+
+--------------------------------------------------------------------------------
+VIDEO 5: GPU Hardware Limits: Stop Trusting Spec Sheets Alone
+--------------------------------------------------------------------------------
+TITLE: GPU Hardware Limits: Stop Trusting Spec Sheets Alone
+
+DESCRIPTION:
+Spec sheets don't tell the whole story! This video explores how physical GPU system limits dictate your code's actual parallelization. We compare architectures like the Tesla P100, V100, and A100 to show how hard boundaries—such as max warps per SM, max threads per SM, max blocks per SM, and register limits—constrain execution. We highlight how heavy use of shared memory or per-thread registers can severely throttle your Occupancy. Learn how to navigate these hardware ceilings when designing your kernels, ensuring you evaluate GPU performance based on real-world constraints rather than theoretical maximums.
+
+#GPUHardware #SystemLimits #A100 #Occupancy #Parallelization
+```
